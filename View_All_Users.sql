@@ -3,11 +3,11 @@
 SELECT 
 	usename AS "User name",
 	usesysid AS "User ID",
-    usecreatedb AS "Can create DBs",
-    usesuper "Is a super user",
-    usecatupd "Can update system catalog",
-    passwd "Password",
-    valuntil "Password expiry time",
-    useconfig "Session configurations"
+    	usecreatedb AS "Can create DBs",
+    	usesuper "Is a super user",
+    	usecatupd "Can update system catalog",
+    	passwd "Password",
+    	valuntil "Password expiry time",
+    	useconfig "Session configurations"
 FROM 
 	pg_user
