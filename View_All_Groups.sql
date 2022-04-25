@@ -3,7 +3,7 @@
 -- https://www.postgresql.org/docs/8.0/catalog-pg-group.html
 SELECT 
 	groname AS "Group Name",
-    grosysid AS "Group ID", 
-    grolist AS "IDs of Users in the Group"
+    	grosysid AS "Group ID", 
+    	grolist AS "IDs of Users in the Group"
 FROM
 	pg_group
