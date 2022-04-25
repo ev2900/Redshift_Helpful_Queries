@@ -1,1 +1,1 @@
-# Redshift_Helpful_Queries
+# Redshift Helpful Queries
